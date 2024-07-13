@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1> To Do List </h1>
+
+        <div class="box-con">
+            <p> สิ่งที่ต้องทำวันนี้ </p>
+
+            <div class="box-input">
+                <input id="inputListText" placeholder=":" type="text">
+                <input id="inputListTime" placeholder=":" type="time">
+                <button id="add">ADD</button>
+            </div>
+
+            <div class="head-list">
+                <p >List</p>
+                <p style="display: flex; justify-content: center; ">TIME</p>
+                <p style="display: flex; justify-content: center; ">Check</p>
+                <p style="display: flex; justify-content: center; ">Clear</p>
+            </div>
+            
+            <div id="resultsContainer">
+            
+            </div>
+
+        </div>
+
+        <div class="box-con-report">
+
+            <div class="box-btn-report">
+                <button id="report">REPORT TO DAY</button>
+                <button id="hideReport">HIDE REPORT</button>
+            </div>
+            
+            <div id="showReport">
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
